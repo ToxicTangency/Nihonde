@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import PostList from '../components/PostList';
-import Loader from '../components/loader/Loader';
+import MiniLoader from '../components/loader/MiniLoader';
 import { loadPosts } from './api/posts';
 import MainContainer from '../components/MainContainer';
 import MyButton from '../components/UI/MyButton/MyButton';
@@ -59,7 +59,7 @@ export default function Posts({ initialPosts, total, initialCategories }) {
           <div>Все посты загружены</div>
         )}
       </div>
-      <Loader />
+      {isLoading && <MiniLoader />}
     </MainContainer>
   );
 }
