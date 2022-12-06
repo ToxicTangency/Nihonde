@@ -1,0 +1,29 @@
+.myBtnWht{
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-family: 'Tenor Sans';
+    transition: .3s;
+}
+.myBtnWht:hover{
+    color:#000;
+    background-color: #fff;
+}
+
+.myBtnBlc{
+    padding: 10px 20px;
+    color: #000;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-family: 'Tenor Sans';
+    transition: .3s;
+}
+.myBtnBlc:hover{
+    color:#fff;
+    background-color: #000;
+}
