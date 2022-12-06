@@ -19,6 +19,7 @@ export default function Post({ post }) {
                 alt=''
                 width={660}
                 height={900}
+                rel='preload'
                 style={{ width: '100%', height: 'auto' }}
               />
             )}
