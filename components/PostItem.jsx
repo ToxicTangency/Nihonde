@@ -13,6 +13,7 @@ export default function PostItem(props) {
             width={384}
             height={520}
             style={{ width: '100%', height: 'auto' }}
+            rel='preload'
           />
         </Link>
       </div>

@@ -7,7 +7,7 @@ const SampleImageComponent = ({ value }) => {
       src={urlFor().image(value).url()}
       alt={value.alt || ' '}
       width={300}
-      height={600}
+      height={400}
       loading='lazy'
     />
   );

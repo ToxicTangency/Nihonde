@@ -10,7 +10,7 @@ export default function Home({ initialPosts, initialCategories }) {
   const [categories, setCategories] = useState(initialCategories);
 
   return (
-    <MainContainer title={'Main'}>
+    <MainContainer title={'Главная'}>
       <MainSlider posts={posts} />
       <div>
         <div className='single-post__category'>Категории</div>
